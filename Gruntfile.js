@@ -80,7 +80,11 @@ module.exports = function(grunt) {
     shell: {
       prodServer: {
       }
-    }
+    },
+    'heroku-deploy' : {
+      production : {
+        deployBranch : 'prod'
+      }
   });
 
   grunt.loadNpmTasks('grunt-contrib-uglify');
