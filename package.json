@@ -34,5 +34,7 @@
   "devDependencies": {
     "supertest": "^0.10.0"
   },
-  "postinstall": "grunt build"
+  "scripts": {
+    "postinstall": "./node_modules/grunt-cli/bin/grunt build"
+  }
 }
