@@ -40,7 +40,7 @@ module.exports = function(grunt) {
     jshint: {
       files: [
         // Add filespec list here
-        'app/**/*.js', 'lib/*.js', 'public/client/*.js'
+        'app/**/*.js', 'public/client/*.js'
       ],
       options: {
         force: 'true',
